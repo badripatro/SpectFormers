@@ -187,118 +187,71 @@
 <body data-gr-c-s-loaded="true">
 
 <div class="halign">
-	<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="http://microsoft.com/"><img src="https://delta-lab-iitk.github.io/BVQG/images/transparent.png" height="150" width= "150" alt="sherlock"/></a></div>
+	<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="http://microsoft.com/"><img src="https://badripatro.github.io/SpectFormers/images/bath.jpg" height="150" width= "150" alt="sherlock"/></a></div>
 	<div style="float: left; width: 65%;">
 	<div class="block_1">
 
 		<div class="block_1">
-			<p class="sz20 bold no_margin" align="center">Deep Bayesian Network for Visual Question Generation</p>
+			<p class="sz20 bold no_margin" align="center">SpectFormer: Attention is NOT what matters in a transformer Network</p>
 			<p align="center">
-			</p><p class="no_margin" align="center"> <a href="https://badripatro.github.io/">Badri N. Patro</a>, <a href="https://www.cse.iitk.ac.in/users/vinaypn/">Vinay P. Namboodiri</a>, <a href="https://www.cse.iitk.ac.in/users/vinaypn/">Vijay S. Agneeswarn</a></p>
-            <p  class="no_margin" align="center"><a href="http://microsoft.com/">Microsoft</a></p>
-				<p class="no_margin" align="center"><a href="http://iitk.ac.in/">University of Bath</a></p>
-				<p class="sz12 bold" align="center"><a href="https://arxiv.org/pdf/2001.08779.pdf">[Paper]</a> <a href="https://arxiv.org/abs/2001.08779">[ArXiv]</a></a> <a href="https://github.com/DelTA-Lab-IITK/BVQG"> [Code]</a> 
+			</p><p class="no_margin" align="center"> <a href="https://badripatro.github.io/">Badri N. Patro</a>, <a href="https://www.cse.iitk.ac.in/users/vinaypn/">Vinay P. Namboodiri</a>, <a href="https://www.linkedin.com/in/vijaysrinivasagneeswaran/?originalSubdomain=in">Vijay S. Agneeswarn</a></p>
+           		 <p  class="no_margin" align="center"><a href="http://microsoft.com/">Microsoft</a>, and <a href="http://iitk.ac.in/">University of Bath</a></p>
+				<p class="sz12 bold" align="center"></a> <a href="https://github.com/badripatro/SpectFormers"> [Code]</a> 
 
 			<p align="center">
 			</p>
 		</div>
 	</div>
 </div>
-<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="http://microsoft.com/"><img src="https://delta-lab-iitk.github.io/BVQG/images/iitlogo.png" height="150" width= "150" alt="sherlock"/></a></div>
+<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="http://microsoft.com/"><img src="https://badripatro.github.io/SpectFormers/images/microsoft.webp" height="150" width= "150" alt="sherlock"/></a></div>
 
-<!--<div class="halign">
-		<div class="block_1">
-			<div class="">
-							
-			</div>
-	</div>
-</div>-->
 
 	<div class="block_1">
 		<div class="">
 			<p class="sz15 bold">Abstract</p>
 				<div class="padding20" style="float:right ">
-					<img style="max-width:601px" src="https://delta-lab-iitk.github.io/BVQG/images/intro_cvpr19.png">
+					<img style="max-width:601px" src="https://badripatro.github.io/SpectFormers/images/SpectFormer.png">
                               
 				</div>
 				<p class="sz12">
-				Generating natural questions from an image is a semantic task that requires using vision and language modalities to learn multimodal representations. Images can have multiple visual and language cues such as places, captions, and tags. In this paper, we propose a principled deep Bayesian learning framework that combines these cues to produce natural questions. We observe that with the addition of more cues and by minimizing uncertainty in the among cues, the Bayesian network becomes more confident. We propose a Minimizing Uncertainty of Mixture of Cues (MUMC), that minimizes uncertainty present in a mixture of  cues experts for generating  probabilistic questions. This is a Bayesian framework and the results show a remarkable similarity to natural questions as validated by a human study. We observe that with the addition of more cues and by minimizing uncertainty among the cues, the Bayesian framework becomes more confident. Ablation studies of our model indicate that a subset of cues is inferior at this task and hence the principled fusion of cues is preferred. Further, we observe that the proposed approach substantially improves over state-of-the-art benchmarks on the quantitative metrics (BLEU-n, METEOR, ROUGE, and CIDEr). Here we provide project link for Deep Bayesian VQG.
+				Vision transformers have been applied successfully for image recognition tasks. There have been either multi-headed self-attention based (ViT \cite{dosovitskiy2020image}, DeIT, \cite{touvron2021training}) similar to the original work in textual models or more recently based on spectral layers (Fnet\cite{lee2021fnet}, GFNet\cite{rao2021global}, AFNO\cite{guibas2021efficient}). We hypothesize that both spectral and multi-headed attention plays a major role. We investigate this hypothesis through this work and observe that indeed combining spectral and multi-headed attention layers provides a better transformer architecture. We thus propose the novel Spectformer architecture for transformers that combines spectral and multi-headed attention layers. We believe that the resulting representation allows the transformer to capture the feature representation appropriately and it yields improved performance over other transformer representations. For instance, it improves the top-1 accuracy by 2\% on ImageNet compared to both GFNet-H and LiT. SpectFormer-S reaches 84.25\% top-1 accuracy on ImageNet-1K (state of the art for small version). Further, Spectformer-L achieves 85.7\% that is the state of the art for the comparable base version of the transformers. We further ensure that we obtain reasonable results in other scenarios such as transfer learning on standard datasets such as CIFAR-10, CIFAR-100, Oxford-IIIT-flower, and Standford Car datasets.  We then investigate its use in downstream tasks such of object detection and instance segmentation on MS-COCO dataset and observe that Spectformer shows consistent performance that is comparable to the best backbones and can be further optimized and improved. Hence, we believe that combined spectral and attention layers are what are needed for vision transformers.
 				</p>
 			 		
 		</div>
 	</div>
 
-   <!--      <div class="block_1">
-                <div class="halign" style="float:right">
-                    <img style="max-width:601px" src="http://home.iitk.ac.in/~vinodkk/idda_model/idda_model.jpg">
-                </div>
-    </div>
- -->
-
 
 	<div class="block_1" id="code">
 			<div class="">
-				<p class="sz15 bold">tSNE Plots</p>
+				<p class="sz15 bold">SpectFormer Main Diagram</p>
 			</div>
 			<div style="text-align: center;">
            
-                    <img style="max-width:75%;" src="https://DelTA-Lab-IITK.github.io/BVQG/images/CVPR19_BVQG.png">
+                    <img style="max-width:75%;" src="https://badripatro.github.io/SpectFormers/images/SpectFormer_main.png">
            
-
-          
-<!--                     <img style="max-width:25%;" src="https://delta-lab-iitk.github.io/BVQA/bvqa/grl_tsne.png"> -->
-          
-
-           
-<!--                     <img style="max-width:25%;" src="https://delta-lab-iitk.github.io/BVQA/bvqa/attention_tsne.png"> -->
             </div>
 	</div>
 
-
-
-	<!-- <div class="block_1" id="code">
-			<div class="">
-				<p class="sz15 bold">Proxy-distance</p>
-			</div>
-			<div style="text-align: center;">
-           
-                    <img style="max-width:28%;" src="http://home.iitk.ac.in/~vinodkk/cada/proxy_a_distance.png">
-           
-
-          
-                    <img style="max-width:25%;" src="http://home.iitk.ac.in/~vinodkk/cada/proxy_crop.png">
-          
-
-            </div>
-	</div>
- -->
 
 <div class="block_1" id="code">
 			<div class="">
-				<p class="sz15 bold">Visualization</p>
+				<p class="sz15 bold">Filter Visualization</p>
 			</div>
 			<div style="text-align: center;">
            
-             	<img style="max-width:75%;" src="https://DelTA-Lab-IITK.github.io/BVQG/images/result_1 (2).png">
-          
+             	<img style="max-width:75%;" src="https://badripatro.github.io/SpectFormers/images/GFNet_filter.jpg">
+		<img style="max-width:75%;" src="https://badripatro.github.io/SpectFormers/images/SpectFormer_filter.jpg">          
 
             </div>
 	</div>
 
 
 
-	<div class="block_1" id="code">
+<!-- 	<div class="block_1" id="code">
 			<div class="">
 				<p class="sz15 bold">Code Coming Soon!</p>
 			</div>
 			
-           		
-             	<!--<img style="" src="https://github.com/DelTA-Lab-IITK/CADA/edit/gh-pages/attention_tsne.png">
-          	
-          		
-          		<span  style="position: absolute; bottom: 200px; margin-left:10px;">Vinod Kumar Kurmi helloJau ho<br>hi and hello</span>
-          		-->
-
           	<center> 
           	 <table width="700px">
           	 <tbody align="center"><tr>
@@ -321,12 +274,6 @@
 
 
 
-	<!-- <div class="block_1" id="data">
-			<div class="">
-				<p class="sz15 bold">Alexnet Pretrained Model</p>
-				<p>Can be found  <a href="http://home.iitk.ac.in/~vinodkk/">[Coming Soon!]</a>.</p>
-			</div>
-	</div> -->
 	<div class="block_1" id="Bibtex">
 			<div class="">
 							<p class="sz15 bold">BibTex</p>
@@ -348,7 +295,7 @@
 		</div>
 	</div>
 
-
+ -->
 </div>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
