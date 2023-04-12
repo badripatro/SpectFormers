@@ -1,0 +1,369 @@
+<html class="gr__filebox_ece_vt_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+	<style>
+	body {
+		background:white;
+		color: #222222;
+		padding: 0;
+		margin: 0;
+		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		line-height: 1.4;
+   }
+	a:link {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+	p{
+		font-size:1.2em;
+	}
+	img {
+		width:100%;
+		max-width: 300px;
+	}
+	.rcorner{
+		border-radius: 25px;
+		border: 2px solid #8AC007;
+		padding: 20px;
+	}
+	div{
+		max-width:1200px;
+		position:relative;
+		font-family:Arial;
+	}
+	.bold{font-weight: bold;}
+	.italic{font-style: italic;}
+	.sz25{font-size:2.5em;}
+	.sz20{font-size:2.0em;}
+	.sz15{font-size:1.5em;}
+	.sz13{font-size:1.3em;}
+	.sz12{font-size:1.2em;}
+	.sz10{font-size:1.0em;}
+	.sz08{font-size:0.8em;}
+	.inline{display:inline-block;}
+	.no_margin{
+		margin: 0 0;
+	}
+	.padding20{
+		padding: 20px;
+	}
+	.halign{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.block_2
+	{
+		width:49%;
+		max-width: 512px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_5_2
+	{
+		width:40%;
+		max-width: 410px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_3
+	{
+		width:33%;
+		max_width: 341px;
+		display: inline-block;
+		position: relative;
+	}
+	.block_1
+	{
+		width:100%;
+		display: inline-block;
+		/*position: relative;*/
+		margin: 5px 5px;
+		text-align: justify;
+
+	}
+	.block_N
+	{
+		display: inline-block;
+		position: relative;
+	}
+	.block_6
+	{
+		width:16%;
+		display: inline-block;
+		position: relative;
+
+	}
+
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+
+	img.rounded {
+		border: 0px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		        15px 15px 0 0px #fff, /* The fourth layer */
+		        15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		        20px 20px 0 0px #fff, /* The fifth layer */
+		        20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		        25px 25px 0 0px #fff, /* The fifth layer */
+		        25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+
+	.vert-cent {
+		position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	.block_6_5
+	{
+		width:83%;
+		display: inline-block;
+		position: relative;
+	}
+	</style>
+	<title>
+		SpectFormer: Attention is NOT what matters in a transformer Network
+	</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141788472-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141788472-1');
+</script>
+
+</head>
+<body data-gr-c-s-loaded="true">
+
+<div class="halign">
+	<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="http://microsoft.com/"><img src="https://delta-lab-iitk.github.io/BVQG/images/transparent.png" height="150" width= "150" alt="sherlock"/></a></div>
+	<div style="float: left; width: 65%;">
+	<div class="block_1">
+
+		<div class="block_1">
+			<p class="sz20 bold no_margin" align="center">Deep Bayesian Network for Visual Question Generation</p>
+			<p align="center">
+			</p><p class="no_margin" align="center"> <a href="https://badripatro.github.io/">Badri N. Patro</a>, <a href="https://www.cse.iitk.ac.in/users/vinaypn/">Vinay P. Namboodiri</a>, <a href="https://www.cse.iitk.ac.in/users/vinaypn/">Vijay S. Agneeswarn</a></p>
+            <p  class="no_margin" align="center"><a href="http://microsoft.com/">Microsoft</a></p>
+				<p class="no_margin" align="center"><a href="http://iitk.ac.in/">University of Bath</a></p>
+				<p class="sz12 bold" align="center"><a href="https://arxiv.org/pdf/2001.08779.pdf">[Paper]</a> <a href="https://arxiv.org/abs/2001.08779">[ArXiv]</a></a> <a href="https://github.com/DelTA-Lab-IITK/BVQG"> [Code]</a> 
+
+			<p align="center">
+			</p>
+		</div>
+	</div>
+</div>
+<div style="float: left; width: 15%; padding: 1%;"><a target="_blank" href="http://microsoft.com/"><img src="https://delta-lab-iitk.github.io/BVQG/images/iitlogo.png" height="150" width= "150" alt="sherlock"/></a></div>
+
+<!--<div class="halign">
+		<div class="block_1">
+			<div class="">
+							
+			</div>
+	</div>
+</div>-->
+
+	<div class="block_1">
+		<div class="">
+			<p class="sz15 bold">Abstract</p>
+				<div class="padding20" style="float:right ">
+					<img style="max-width:601px" src="https://delta-lab-iitk.github.io/BVQG/images/intro_cvpr19.png">
+                              
+				</div>
+				<p class="sz12">
+				Generating natural questions from an image is a semantic task that requires using vision and language modalities to learn multimodal representations. Images can have multiple visual and language cues such as places, captions, and tags. In this paper, we propose a principled deep Bayesian learning framework that combines these cues to produce natural questions. We observe that with the addition of more cues and by minimizing uncertainty in the among cues, the Bayesian network becomes more confident. We propose a Minimizing Uncertainty of Mixture of Cues (MUMC), that minimizes uncertainty present in a mixture of  cues experts for generating  probabilistic questions. This is a Bayesian framework and the results show a remarkable similarity to natural questions as validated by a human study. We observe that with the addition of more cues and by minimizing uncertainty among the cues, the Bayesian framework becomes more confident. Ablation studies of our model indicate that a subset of cues is inferior at this task and hence the principled fusion of cues is preferred. Further, we observe that the proposed approach substantially improves over state-of-the-art benchmarks on the quantitative metrics (BLEU-n, METEOR, ROUGE, and CIDEr). Here we provide project link for Deep Bayesian VQG.
+				</p>
+			 		
+		</div>
+	</div>
+
+   <!--      <div class="block_1">
+                <div class="halign" style="float:right">
+                    <img style="max-width:601px" src="http://home.iitk.ac.in/~vinodkk/idda_model/idda_model.jpg">
+                </div>
+    </div>
+ -->
+
+
+	<div class="block_1" id="code">
+			<div class="">
+				<p class="sz15 bold">tSNE Plots</p>
+			</div>
+			<div style="text-align: center;">
+           
+                    <img style="max-width:75%;" src="https://DelTA-Lab-IITK.github.io/BVQG/images/CVPR19_BVQG.png">
+           
+
+          
+<!--                     <img style="max-width:25%;" src="https://delta-lab-iitk.github.io/BVQA/bvqa/grl_tsne.png"> -->
+          
+
+           
+<!--                     <img style="max-width:25%;" src="https://delta-lab-iitk.github.io/BVQA/bvqa/attention_tsne.png"> -->
+            </div>
+	</div>
+
+
+
+	<!-- <div class="block_1" id="code">
+			<div class="">
+				<p class="sz15 bold">Proxy-distance</p>
+			</div>
+			<div style="text-align: center;">
+           
+                    <img style="max-width:28%;" src="http://home.iitk.ac.in/~vinodkk/cada/proxy_a_distance.png">
+           
+
+          
+                    <img style="max-width:25%;" src="http://home.iitk.ac.in/~vinodkk/cada/proxy_crop.png">
+          
+
+            </div>
+	</div>
+ -->
+
+<div class="block_1" id="code">
+			<div class="">
+				<p class="sz15 bold">Visualization</p>
+			</div>
+			<div style="text-align: center;">
+           
+             	<img style="max-width:75%;" src="https://DelTA-Lab-IITK.github.io/BVQG/images/result_1 (2).png">
+          
+
+            </div>
+	</div>
+
+
+
+	<div class="block_1" id="code">
+			<div class="">
+				<p class="sz15 bold">Code Coming Soon!</p>
+			</div>
+			
+           		
+             	<!--<img style="" src="https://github.com/DelTA-Lab-IITK/CADA/edit/gh-pages/attention_tsne.png">
+          	
+          		
+          		<span  style="position: absolute; bottom: 200px; margin-left:10px;">Vinod Kumar Kurmi helloJau ho<br>hi and hello</span>
+          		-->
+
+          	<center> 
+          	 <table width="700px">
+          	 <tbody align="center"><tr>
+				  <td><a target="_blank" href="https://arxiv.org/pdf/2001.08779.pdf"><img class="layered-paper-big" style="height:150px" src="https://delta-lab-iitk.github.io/BVQG/images/page1.jpg"></a></td>
+				  <td><span style="font-size:12pt; margin-left: 30px;">Badri N. Patro, V. K. Kurmi, Sandeep Kumar, V. P. Namboodiri<br>
+				  <b><span style="font-size:12pt; margin-left: 40px;">Deep Bayesian Network for Visual Question Generation</span></b><br>
+				  <!-- <span style="font-size:12pt">In IJCNN, 2019.  -->
+				  <!-- (hosted on <a href="https://arxiv.org/abs/1711.11586">arXiv</a>) -->
+				  </span>
+				  <span style="font-size:4pt"><a href="https://junyanz.github.io/BicycleGAN/"><br></a>
+				  </span>
+				  </td>
+  	              
+              </tr>
+  		  </tbody>
+  		  </table>	
+          </center>
+          
+	</div>
+
+
+
+	<!-- <div class="block_1" id="data">
+			<div class="">
+				<p class="sz15 bold">Alexnet Pretrained Model</p>
+				<p>Can be found  <a href="http://home.iitk.ac.in/~vinodkk/">[Coming Soon!]</a>.</p>
+			</div>
+	</div> -->
+	<div class="block_1" id="Bibtex">
+			<div class="">
+							<p class="sz15 bold">BibTex</p>
+							<p style="font-family: Comic Sans MS; font-size: 14px;">@InProceedings{Patro_2020_WACV,<br>
+							author = {Patro, Badri N.  and Kumar Kurmi, Vinod  and Kumar, Sandeep and Namboodiri, Vinay P.},<br>
+							title = {Deep Bayesian Network for Visual Question Generation},<br>
+							booktitle = {WACV},<br>
+						        year = {2020}<br>
+							}<br>
+						    </p>
+			</div>
+	</div>
+
+	<div class="block_1">
+		<div class="">
+			<p class="sz15 bold">Acknowledgement</p>
+			<p>We acknowledge the help provided by <a target="_blank" href="http://deltalab.iitk.ac.in/">Delta Lab</a> members, who have supported us for this research activity.
+			</p>
+		</div>
+	</div>
+
+
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141358857-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141358857-1');
+</script>
+
+
+<script type="text/javascript">
+
+</script>
+
+</body></html>
