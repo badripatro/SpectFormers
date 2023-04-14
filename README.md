@@ -31,5 +31,17 @@ bash hierarchical_architecture/main.sh
 ## Inference Results
 ![Inference](vanilla_architecture/figs/inference.png)
 
+
+## Citation
+
+```
+@article{patro2023spectformer,
+  title={SpectFormer: Frequency and Attention is what you need in a Vision Transformer},
+  author={Patro, Badri N.  and Namboodiri, Vinay P. and Agneeswaran, Vijay Srinivas},
+  journal={arXiv preprint arXiv:2304.06446},
+  year = {2023}
+}
+```
+
 # Acknowledgements
 Thanks the contribution of [DeiT](https://github.com/facebookresearch/deit), [WaveVit](https://github.com/YehLi/ImageNetModel)  and [GFNet](https://github.com/raoyongming/GFNet).
