@@ -15,6 +15,14 @@ Vision transformers have been applied successfully for image recognition tasks. 
 
 ![Main Model](vanilla_architecture/figs/SpectFormer_main.png)
 
+
+
+## SOTA Performance on the ImageNet-1K dataset for image size 224 x 224 for  Image Recognition Task
+
+![SOTA](vanilla_architecture/figs/sota.jpg)
+
+
+
 ## Training
 
 ### Train SpectFormer for Vanilla Architecture 
